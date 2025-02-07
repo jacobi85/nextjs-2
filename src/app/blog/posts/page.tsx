@@ -6,7 +6,7 @@ export default function PostsPage() {
     <>
       <h1>Posts</h1>
       {posts.map((post) => (
-        <Post key={post.id} {...post} />
+        <Post key={post.id} {...post} isDetailPage={false} />
       ))}
     </>
   );

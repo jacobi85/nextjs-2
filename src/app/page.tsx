@@ -14,7 +14,7 @@ export default function Home() {
             </p>
             <Link
               className="outline outline-1 outline-offset-2 border-purple-700 text-purple-700 hover:text-white py-2 px-4 rounded hover:bg-purple-800 md:w-auto"
-              href={"/blog/"}
+              href={"/blog/posts"}
             >
               Go to Blog
             </Link>
