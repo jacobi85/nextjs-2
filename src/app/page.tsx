@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex items-center justify-center min-h-screen bg-gray-50">
@@ -10,12 +12,12 @@ export default function Home() {
               viverra nunc at adipiscing sit morbi aliquet mauris porttitor
               nisi, senectus pharetra, ac porttitor orci.
             </p>
-            <a
-              href="/"
+            <Link
               className="outline outline-1 outline-offset-2 border-purple-700 text-purple-700 hover:text-white py-2 px-4 rounded hover:bg-purple-800 md:w-auto"
+              href={"/blog/"}
             >
               Go to Blog
-            </a>
+            </Link>
           </div>
         </div>
       </div>
